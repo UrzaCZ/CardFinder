@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="javafx-preloader" name="cardFinder">
+    <output-path>$PROJECT_DIR$/out/artifacts/cardFinder</output-path>
+    <root id="archive" name="cardFinder.jar">
+      <element id="library" level="project" name="Maven: org.jsoup:jsoup:1.13.1" />
+      <element id="library" level="project" name="JavaFX 11" />
+    </root>
+  </artifact>
+</component>

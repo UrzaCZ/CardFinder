@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ProgressBar?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="122.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="cardFinder.cardFinder.SecondaryController">
+   <children>
+      <ProgressBar fx:id="progressBar" layoutX="12.0" layoutY="36.0" prefHeight="32.0" prefWidth="575.0" progress="0.0" />
+      <Label fx:id="progressBarPercent" alignment="CENTER" contentDisplay="CENTER" layoutX="278.0" layoutY="74.0" prefHeight="39.0" prefWidth="44.0" text="0" textAlignment="CENTER">
+         <font>
+            <Font name="System Bold" size="17.0" />
+         </font>
+      </Label>
+      <Label contentDisplay="CENTER" layoutX="322.0" layoutY="74.0" prefHeight="39.0" prefWidth="19.0" text="\%" textAlignment="CENTER">
+         <font>
+            <Font name="System Bold" size="17.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
